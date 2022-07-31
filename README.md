@@ -27,3 +27,8 @@ The client must have the server's `public.key` file in order to send requests
 ``` shell
 python3 client.py
 ```
+Default API endpoints are:
+``` shell
+http://localhost/scan/one
+http://localhost/scan/multiple
+```
