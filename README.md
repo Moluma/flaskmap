@@ -1,5 +1,5 @@
 # flaskmap
-Flask based Nmap API
+Flask based Nmap API.
 
 ## General installation:
 ``` shell
@@ -23,7 +23,7 @@ send_scans = True #The results are AES-encrypted and sent to the client
 store_scans_csv = True #If set to False and send_scans is also set to False no scan data will be stored nor sent so the scans will be wasted
 ```
 ## Client usage: 
-The client must have the server's `public.key` file in order to send requests
+The client must have the server's `public.key` file in order to send requests.
 ``` shell
 python3 client.py
 ```
